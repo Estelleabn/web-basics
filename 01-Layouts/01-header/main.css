@@ -1,5 +1,31 @@
 .container {
-  margin: 0 auto;  
-  width: 720px;
+  	margin: 0 auto;  
+  	width: 720px;
 	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	text-align: center;
+	border-bottom: 1px solid black;
+	height: 120px;
+}
+
+header ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+header li {
+	display: inline-block;
+	clear: both;
+}
+
+header a:link,a:visited
+{
+display: block;
+width:120px;
+text-align:center;
+padding: 3px;
 }
