@@ -1,5 +1,32 @@
+header {
+	margin: -20px auto;
+	width: 100%;
+ 	background-color: #191511;
+ 	color: #FFFFFF;
+ 	height: 100px;
+ 	position: fixed;
+}
+
+.nav-content h1 {
+	display: inline;
+	float: left;
+	width: 420px;
+	margin: auto;
+	padding: 35px 0px 30px 360px;
+}
+
+.nav-content a {
+	display: inline-block;
+	padding: 48px 10px 10px 10px;
+	width: 100px;
+	height: 60px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
 .container {
   margin: 0 auto;  
   width: 840px;
-	font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  padding: 100px;
 }
