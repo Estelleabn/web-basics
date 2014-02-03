@@ -1,6 +1,39 @@
+header {
+	font-style: bold;
+	border-bottom: 1px solid black;
+}
+
+
 .container {
   margin: 0 auto;  
   width: 840px;
-	font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
+
+nav {
+	width: 70px;
+	float: left;
+	padding-top: 15px;
+	padding-right: 60px;
+}
+
+nav li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.content {
+	width: 659px;
+	float: right;
+	padding: 15px 15px 10px 30px;
+	border-left: 1px solid black;
+	text-align: justify;
+}
+
+footer {
+	clear: both;
+	border-top: 1px solid black;
+	padding: 15px 15px 15px 15px;
+}
