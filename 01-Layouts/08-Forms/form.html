@@ -32,24 +32,86 @@
     <section class="content">
       
       <!-- Here the button to launch your sign-up modal-->
-      <a class="btn btn-warning">Signup</a>
+      <button class="btn btn-warning" data-toggle="modal" data-target="#signupModal">
+        Click to play
+      </button>
       <!-- Look at Bootstrap doc to see how to link this button to your modal #signupModal-->
             
             
       <!-- Here your signup modal with the form-->
-      <div id="signupModal" class="modal hide fade">
-        
+      <div id="signupModal" class="modal hide fade" role="dialog" aria-hidden="true">
+       
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
           <h2>Sign up buddy !</h2>
         </div>
         
         <div class="modal-body">
-          <form>
             <!-- Here your awesome form-->
-          </form>
-        </div>
-        
+                <form class="form-horizontal" role="form">
+                  <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label">Email </label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control" id="inputEmail3" placeholder="Email" style="margin-left: 10px">
+                    </div>
+                  </div>
+                  <br>
+                  <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">Password </label>
+                    <div class="col-sm-10">
+                      <input type="password" class="form-control" id="inputPassword3" placeholder="Password" style="margin-left: 10px">
+                    </div>
+                  </div>
+                  <br>
+                  <div class="form-group"><center>
+                  <div class="btn-group" data-toggle="buttons-radio">
+                  <button class="btn btn-danger" type="button" style="opacity: 0.5">Begginer</button>
+                  <button class="btn btn-danger" type="button" style="opacity: 0.8">Amateur</button>
+                  <button class="btn btn-danger" type="button" style="opacity: 1">Expert</button>
+                  </div></center>
+                  </div>
+                  <br>
+
+                  <div class="form-group"><center>
+                    <div class="radio-inline">
+                         <label>
+                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                        Male
+                        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" style="margin-left: 50px" >
+                        Female
+                      </label>
+                    </div>
+                  </center></div>
+
+                  <br>
+                  <div class="form-group"><center>
+                    <select class="form-control">
+                          <option>30€</option>
+                          <option>50€</option>
+                          <option>67€</option>
+                          <option>412€</option>
+                        </select>
+                  </center></div>
+
+                  <br>
+                  <div class="controls">
+                    <div class="col-sm-offset-2 col-sm-10">
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox" value=""> Remember me
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                      <center><button type="submit" class="btn btn-primary">Sign up</button></center>
+                    </div>
+                  </div>
+                </form>
+            </div>
+       
       </div>
       
     </section>
