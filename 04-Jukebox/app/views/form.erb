@@ -1,4 +1,13 @@
+<h3>Add your new album, sir:</h3>
+<br>
 <form action="/" method="post">
-  <!--implement the object-related form for an album	-->
+  <label for="name">Name:</label>
+  	<input name="album[name]" type="text">
+  <p><label for="artist">Artist:</label>
+   <input name="album[artist]" type="text"></p>
+  <p><label for="year">Year:</label>
+    <input name="album[year]" type="number"></p>
+  <input type="submit" value="CREATE">
 </form>
+<br>
 <a href=/>Back to jukebox list</a>
