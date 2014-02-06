@@ -20,3 +20,4 @@ get '/:id' do
 @album = Album.find(params[:id].to_i)
 erb :show
 end
+
